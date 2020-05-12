@@ -51,3 +51,20 @@ $(window).scroll(function(event){
 
 	});
 
+
+// project hover
+
+
+$(".project01").mouseenter(function () {
+    //$(".titolo02, .titolo03, .titolo04, .titolo05").css("opacity", "0.2");
+    $(".img01").css("opacity", "1");
+    $(".personalProject").css("opacity", "0.1");
+});
+
+$(".project01").mouseleave(function () {
+      //  $(".titolo02, .titolo03, .titolo04, .titolo05").css("opacity", "1");
+        $(".img01").css("opacity", "0");
+        $(".introduzione").css("opacity", "1");
+});
+
+

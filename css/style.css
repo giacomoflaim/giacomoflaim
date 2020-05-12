@@ -5,18 +5,79 @@
 @import url('https://fonts.googleapis.com/css?family=Glegoo|Hind:300|IBM+Plex+Sans:100,200,300,400,500,600,700');
 </style>
 
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('fonts/DrukWide-BoldItalic.woff2') format('woff2'),
+        url('fonts/DrukWide-BoldItalic.woff') format('woff'),
+        url('fonts/DrukWide-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('fonts/Druk-WideHeavyItalic.woff2') format('woff2'),
+        url('fonts/Druk-WideHeavyItalic.woff') format('woff'),
+        url('fonts/Druk-WideHeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('fonts/Druk-WideMediumItalic.woff2') format('woff2'),
+        url('fonts/Druk-WideMediumItalic.woff') format('woff'),
+        url('fonts/Druk-WideMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('fonts/DrukWide-Heavy.woff2') format('woff2'),
+        url('fonts/DrukWide-Heavy.woff') format('woff'),
+        url('fonts/DrukWide-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('fonts/Druk-WideMedium.woff2') format('woff2'),
+        url('fonts/Druk-WideMedium.woff') format('woff'),
+        url('fonts/Druk-WideMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('fonts/DrukWide-Bold.woff2') format('woff2'),
+        url('fonts/DrukWide-Bold.woff') format('woff'),
+        url('fonts/DrukWide-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 body {
     height: 100%;
     width:100%;
     position: absolute;
     background-color: white; 
+    
 }
 
 /* TEXT */
 
+.margin-40{
+    margin: 40 0;
+}
+
 h1{
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Druk Wide',sans-serif;
+    font-weight: 700;
+    font-style: italic;
     font-size: 110;
     letter-spacing: 20px;   
     color: white;
@@ -55,6 +116,55 @@ h2{
 	margin-left: 5px;
 }
 
+h3{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	background-image: linear-gradient(-225deg,rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
+  	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
+	line-height: 16px;
+	padding: 0px;
+	margin:0px;
+	text-align: center;
+	text-transform: uppercase;    
+}
+
+
+
+
+
+h4{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+	font-weight: 600;
+    
+    letter-spacing: 0.5;
+    text-transform:uppercase;
+    margin-right: 20px;
+	margin-bottom: 0px;
+    display: inline-block;
+    padding-top: 0px;
+    color: #444444;
+    /*background-image:linear-gradient(180deg,transparent 60%, rgba(116, 223, 239,.4) 0);*/
+}
+
+.firm{
+    color: rgb(113, 7, 252);
+}
+
+h6{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40;    
+    letter-spacing: 6px;
+    margin: 0;
+    padding: 5 0;
+    color: white;
+	background: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
+  	-webkit-background-clip: text;
+  	-webkit-text-stroke: 3px transparent;    
+}
 
 h7{
     font-family: 'IBM Plex Sans', sans-serif;
@@ -103,7 +213,7 @@ h7{
 
 
 .container-navbar{
-    background: white;
+    background: transparent;
     width: 100vw;
 }
 
@@ -254,21 +364,6 @@ img {
 	padding-bottom:0px;
 }
 
-h3{
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-weight: 500;
-	font-size: 12px;
-	background-image: linear-gradient(-225deg,rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
-  	color: transparent;
-  	-webkit-background-clip: text;
-  	background-clip: text;
-	line-height: 16px;
-	padding: 0px;
-	margin:0px;
-	text-align: center;
-	text-transform: uppercase;
-    
-}
 
 
 
@@ -276,17 +371,36 @@ h3{
 hr{
 	background-image: linear-gradient(-225deg,rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
 	height: 1px;
-	border: 0px;
-	margin-top: 50px;
-	margin-bottom: 60px;
+	border: 1px;
+	margin: 50 0;
 	margin-left: 0px;
+    padding: 0;
+}
+
+#firm{
+    color: rgb(117, 7, 252);
 }
 
 
 
 
+.cover {
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    margin-top: -225px;
+    margin-left: -400px;
+    z-index: 1;
+    pointer-events: none;
+    max-width: 45%;
+    height: auto;
+}
 
-/* menu mobile */
+
+.img01 {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
 
 
 
@@ -336,6 +450,8 @@ hr{
     
     #hello-dx{
         margin-left: 30px;
+        position: fixed;
+        right: 0;
     }
     
 }
