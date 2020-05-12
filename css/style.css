@@ -7,8 +7,8 @@
 
 @font-face {
     font-family: 'Druk Wide';
-    src: url('fonts/DrukWide-BoldItalic.woff2') format('woff2'),
-        url('fonts/DrukWide-BoldItalic.woff') format('woff'),
+    src: url('https://giacomoflaim.com/fonts/DrukWide-BoldItalic.woff2') format('woff2'),
+        url('https://giacomoflaim.com/fonts/DrukWide-BoldItalic.woff') format('woff'),
         url('fonts/DrukWide-BoldItalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
@@ -16,45 +16,45 @@
 
 @font-face {
     font-family: 'Druk Wide';
-    src: url('fonts/Druk-WideHeavyItalic.woff2') format('woff2'),
-        url('fonts/Druk-WideHeavyItalic.woff') format('woff'),
-        url('fonts/Druk-WideHeavyItalic.ttf') format('truetype');
+    src: url('https://giacomoflaim.com/fonts/Druk-WideHeavyItalic.woff2') format('woff2'),
+        url('https://giacomoflaim.com/fonts/Druk-WideHeavyItalic.woff') format('woff'),
+        url('https://giacomoflaim.com/fonts/Druk-WideHeavyItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Druk Wide';
-    src: url('fonts/Druk-WideMediumItalic.woff2') format('woff2'),
-        url('fonts/Druk-WideMediumItalic.woff') format('woff'),
-        url('fonts/Druk-WideMediumItalic.ttf') format('truetype');
+    src: url('https://giacomoflaim.com/fonts/Druk-WideMediumItalic.woff2') format('woff2'),
+        url('https://giacomoflaim.com/fonts/Druk-WideMediumItalic.woff') format('woff'),
+        url('https://giacomoflaim.com/fonts/Druk-WideMediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Druk Wide';
-    src: url('fonts/DrukWide-Heavy.woff2') format('woff2'),
-        url('fonts/DrukWide-Heavy.woff') format('woff'),
-        url('fonts/DrukWide-Heavy.ttf') format('truetype');
+    src: url('https://giacomoflaim.com/fonts/DrukWide-Heavy.woff2') format('woff2'),
+        url('https://giacomoflaim.com/fonts/DrukWide-Heavy.woff') format('woff'),
+        url('https://giacomoflaim.com/fonts/DrukWide-Heavy.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Druk Wide';
-    src: url('fonts/Druk-WideMedium.woff2') format('woff2'),
-        url('fonts/Druk-WideMedium.woff') format('woff'),
-        url('fonts/Druk-WideMedium.ttf') format('truetype');
+    src: url('https://giacomoflaim.com/fonts/Druk-WideMedium.woff2') format('woff2'),
+        url('https://giacomoflaim.com/fonts/Druk-WideMedium.woff') format('woff'),
+        url('https://giacomoflaim.com/fonts/Druk-WideMedium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Druk Wide';
-    src: url('fonts/DrukWide-Bold.woff2') format('woff2'),
-        url('fonts/DrukWide-Bold.woff') format('woff'),
-        url('fonts/DrukWide-Bold.ttf') format('truetype');
+    src: url('https://giacomoflaim.com/fonts/DrukWide-Bold.woff2') format('woff2'),
+        url('https://giacomoflaim.com/fonts/DrukWide-Bold.woff') format('woff'),
+        url('https://giacomoflaim.com/fonts/DrukWide-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
