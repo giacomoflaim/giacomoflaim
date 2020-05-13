@@ -56,15 +56,45 @@ $(window).scroll(function(event){
 
 
 $(".project01").mouseenter(function () {
-    //$(".titolo02, .titolo03, .titolo04, .titolo05").css("opacity", "0.2");
+    $(".project02, .project03, .project04, .project05").css("opacity", "0.2");
+    $(".project02, .project03, .project04, .project05").css("z-index", "-10");
     $(".img01").css("opacity", "1");
     $(".personalProject").css("opacity", "0.1");
 });
 
 $(".project01").mouseleave(function () {
-      //  $(".titolo02, .titolo03, .titolo04, .titolo05").css("opacity", "1");
-        $(".img01").css("opacity", "0");
-        $(".introduzione").css("opacity", "1");
+    $(".project02, .project03, .project04, .project05").css("opacity", "1");
+    $(".project02, .project03, .project04, .project05").css("z-index", "10");
+    $(".img01").css("opacity", "0");
+    $(".introduzione").css("opacity", "1");
+});
+
+$(".project02").mouseenter(function () {
+    $(".project01, .project03, .project04, .project05").css("opacity", "0.2");
+    $(".project01, .project03, .project04, .project05").css("z-index", "-10");
+    $(".img02").css("opacity", "1");
+    $(".personalProject").css("opacity", "0.1");
+});
+
+$(".project02").mouseleave(function () {
+    $(".project01, .project03, .project04, .project05").css("opacity", "1");
+    $(".project01, .project03, .project04, .project05").css("z-index", "10");
+    $(".img02").css("opacity", "0");
+    $(".introduzione").css("opacity", "1");
+});
+
+$(".project03").mouseenter(function () {
+    $(".project01, .project02, .project04, .project05").css("opacity", "0.2");
+    $(".project01, .project02, .project04, .project05").css("z-index", "-10");
+    $(".img03").css("opacity", "1");
+    $(".personalProject").css("opacity", "0.1");
+});
+
+$(".project03").mouseleave(function () {
+    $(".project01, .project02, .project04, .project05").css("opacity", "1");
+    $(".project01, .project02, .project04, .project05").css("z-index", "10");
+    $(".img03").css("opacity", "0");
+    $(".introduzione").css("opacity", "1");
 });
 
 
