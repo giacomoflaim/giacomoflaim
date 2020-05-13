@@ -56,45 +56,86 @@ $(window).scroll(function(event){
 
 
 $(".project01").mouseenter(function () {
-    $(".project02, .project03, .project04, .project05").css("opacity", "0.2");
-    $(".project02, .project03, .project04, .project05").css("z-index", "-10");
+    $(".project02, .project03, .project04, .project05, .project06").css("opacity", "0.2");
+    $(".project02, .project03, .project04, .project05, .project06").css("z-index", "-10");
     $(".img01").css("opacity", "1");
     $(".personalProject").css("opacity", "0.1");
 });
 
 $(".project01").mouseleave(function () {
-    $(".project02, .project03, .project04, .project05").css("opacity", "1");
-    $(".project02, .project03, .project04, .project05").css("z-index", "10");
+    $(".project02, .project03, .project04, .project05, .project06").css("opacity", "1");
+    $(".project02, .project03, .project04, .project05, .project06").css("z-index", "10");
     $(".img01").css("opacity", "0");
-    $(".introduzione").css("opacity", "1");
+    $(".personalProject").css("opacity", "1");
 });
 
 $(".project02").mouseenter(function () {
-    $(".project01, .project03, .project04, .project05").css("opacity", "0.2");
-    $(".project01, .project03, .project04, .project05").css("z-index", "-10");
+    $(".project01, .project03, .project04, .project05, .project06").css("opacity", "0.2");
+    $(".project01, .project03, .project04, .project05, .project06").css("z-index", "-10");
     $(".img02").css("opacity", "1");
     $(".personalProject").css("opacity", "0.1");
 });
 
 $(".project02").mouseleave(function () {
-    $(".project01, .project03, .project04, .project05").css("opacity", "1");
-    $(".project01, .project03, .project04, .project05").css("z-index", "10");
+    $(".project01, .project03, .project04, .project05, .project06").css("opacity", "1");
+    $(".project01, .project03, .project04, .project05, .project06").css("z-index", "10");
     $(".img02").css("opacity", "0");
-    $(".introduzione").css("opacity", "1");
+    $(".personalProject").css("opacity", "1");
 });
 
 $(".project03").mouseenter(function () {
-    $(".project01, .project02, .project04, .project05").css("opacity", "0.2");
-    $(".project01, .project02, .project04, .project05").css("z-index", "-10");
+    $(".project01, .project02, .project04, .project05, .project06").css("opacity", "0.2");
+    $(".project01, .project02, .project04, .project05, .project06").css("z-index", "-10");
     $(".img03").css("opacity", "1");
     $(".personalProject").css("opacity", "0.1");
 });
 
 $(".project03").mouseleave(function () {
-    $(".project01, .project02, .project04, .project05").css("opacity", "1");
-    $(".project01, .project02, .project04, .project05").css("z-index", "10");
+    $(".project01, .project02, .project04, .project05, .project06").css("opacity", "1");
+    $(".project01, .project02, .project04, .project05, .project06").css("z-index", "10");
     $(".img03").css("opacity", "0");
-    $(".introduzione").css("opacity", "1");
+    $(".personalProject").css("opacity", "1");
 });
 
+$(".project04").mouseenter(function () {
+    $(".project01, .project02, .project03, .project05, .project06").css("opacity", "0.2");
+    $(".project01, .project02, .project03, .project05, .project06").css("z-index", "-10");
+    $(".img04").css("opacity", "1");
+    $(".personalProject").css("opacity", "0.1");
+});
+
+$(".project04").mouseleave(function () {
+    $(".project01, .project02, .project03, .project05, .project06").css("opacity", "1");
+    $(".project01, .project02, .project03, .project05, .project06").css("z-index", "10");
+    $(".img04").css("opacity", "0");
+    $(".personalProject").css("opacity", "1");
+});
+
+$(".project05").mouseenter(function () {
+    $(".project01, .project02, .project03, .project04, .project06").css("opacity", "0.2");
+    $(".project01, .project02, .project03, .project04, .project06").css("z-index", "-10");
+    $(".img05").css("opacity", "1");
+    $(".personalProject").css("opacity", "0.1");
+});
+
+$(".project05").mouseleave(function () {
+    $(".project01, .project02, .project03, .project04, .project06").css("opacity", "1");
+    $(".project01, .project02, .project03, .project04, .project06").css("z-index", "10");
+    $(".img05").css("opacity", "0");
+    $(".personalProject").css("opacity", "1");
+});
+
+$(".project06").mouseenter(function () {
+    $(".project01, .project02, .project03, .project04, .project05").css("opacity", "0.2");
+    $(".project01, .project02, .project03, .project04, .project05").css("z-index", "-10");
+    $(".img06").css("opacity", "1");
+    $(".personalProject").css("opacity", "0.1");
+});
+
+$(".project06").mouseleave(function () {
+    $(".project01, .project02, .project03, .project04, .project05").css("opacity", "1");
+    $(".project01, .project02, .project03, .project04, .project05").css("z-index", "10");
+    $(".img06").css("opacity", "0");
+    $(".personalProject").css("opacity", "1");
+});
 

@@ -161,7 +161,7 @@ h6{
     letter-spacing: 6px;
     margin: 0;
     padding: 5 0;
-    color: white;
+    color: transparent;
 	/*background: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
   	-webkit-background-clip: text;*/
   	-webkit-text-stroke: 1px rgb(117, 7, 252);    
@@ -417,6 +417,20 @@ hr{
     opacity: 0;
     transition-duration: 0.5s;
 }
+.img04 {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.img05 {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+.img06 {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
 
 
 
@@ -479,7 +493,7 @@ hr{
 @media (max-width: 640px) {
    
    h1{
-        font-size: 11rem;
+        font-size: 8rem;
         letter-spacing: 3.5rem;
     }
 
@@ -492,6 +506,15 @@ hr{
         height: 100vh;
     }
     
+    .in-the-middle{
+	left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    }
+    
+    
+    
     #hello-dx{
         margin-left: 0px;
     }
@@ -501,9 +524,9 @@ hr{
 @media (max-width: 540px) {   
     /*hello */
     h1{
-        font-size: 6.5rem;
+        font-size: 5.5rem;
         letter-spacing: 2rem;  
-        -webkit-text-stroke: 3.5px transparent;
+        -webkit-text-stroke: 1.5px transparent;
     }
     
     .punto{
@@ -517,6 +540,15 @@ hr{
     .copertina{
         height: 100vh;
     }
+    
+    .in-the-middle{
+	left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    }
+    
+    
 }
 
 
