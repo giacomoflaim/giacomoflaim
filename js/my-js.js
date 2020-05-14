@@ -68,6 +68,12 @@ $(".project01").mouseleave(function () {
     $(".img01").css("opacity", "0");
     $(".personalProject").css("opacity", "1");
 });
+$(".project01").click(function () {
+    $(".project02, .project03, .project04, .project05, .project06").css("opacity", "1");
+    $(".project02, .project03, .project04, .project05, .project06").css("z-index", "10");
+    $(".img01").css("opacity", "0");
+    $(".personalProject").css("opacity", "1");
+});
 
 
 
@@ -102,6 +108,8 @@ $(".project03").mouseleave(function () {
     $(".personalProject").css("opacity", "1");
 });
 
+
+
 //P4
 $(".project04").mouseover(function () {
     $(".project01, .project02, .project03, .project05, .project06").css("opacity", "0.2");
@@ -116,7 +124,14 @@ $(".project04").mouseleave(function () {
     $(".img04").css("opacity", "0");
     $(".personalProject").css("opacity", "1");
 });
+$(".project04").click(function () {
+    $(".project01, .project02, .project03, .project05, .project06").css("opacity", "1");
+    $(".project01, .project02, .project03, .project05, .project06").css("z-index", "10");
+    $(".img04").css("opacity", "0");
+    $(".personalProject").css("opacity", "1");
+});
 
+//P5
 $(".project05").mouseover(function () {
     $(".project01, .project02, .project03, .project04, .project06").css("opacity", "0.2");
     $(".project01, .project02, .project03, .project04, .project06").css("z-index", "-10");
@@ -130,7 +145,14 @@ $(".project05").mouseleave(function () {
     $(".img05").css("opacity", "0");
     $(".personalProject").css("opacity", "1");
 });
+$(".project05").click(function () {
+    $(".project01, .project02, .project03, .project04, .project06").css("opacity", "1");
+    $(".project01, .project02, .project03, .project04, .project06").css("z-index", "10");
+    $(".img05").css("opacity", "0");
+    $(".personalProject").css("opacity", "1");
+});
 
+//P6
 $(".project06").mouseover(function () {
     $(".project01, .project02, .project03, .project04, .project05").css("opacity", "0.2");
     $(".project01, .project02, .project03, .project04, .project05").css("z-index", "-10");
@@ -139,6 +161,12 @@ $(".project06").mouseover(function () {
 });
 
 $(".project06").mouseleave(function () {
+    $(".project01, .project02, .project03, .project04, .project05").css("opacity", "1");
+    $(".project01, .project02, .project03, .project04, .project05").css("z-index", "10");
+    $(".img06").css("opacity", "0");
+    $(".personalProject").css("opacity", "1");
+});
+$(".project06").click(function () {
     $(".project01, .project02, .project03, .project04, .project05").css("opacity", "1");
     $(".project01, .project02, .project03, .project04, .project05").css("z-index", "10");
     $(".img06").css("opacity", "0");
