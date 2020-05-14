@@ -411,8 +411,6 @@ img {
     background-color: transparent;
     height: 40px;
     width: 40px;
-    border-radius: 60px;
-    border-color: rgb(117, 7, 252); 
     color: rgb(117, 7, 252);
     text-align: center;
 }
