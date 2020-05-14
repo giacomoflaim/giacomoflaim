@@ -54,8 +54,8 @@ $(window).scroll(function(event){
 
 // project hover
 
-
-$(".project01").mouseenter(function () {
+//P 1
+$(".project01").mouseover(function () {
     $(".project02, .project03, .project04, .project05, .project06").css("opacity", "0.2");
     $(".project02, .project03, .project04, .project05, .project06").css("z-index", "-10");
     $(".img01").css("opacity", "1");
@@ -69,6 +69,15 @@ $(".project01").mouseleave(function () {
     $(".personalProject").css("opacity", "1");
 });
 
+$(".project01").click(function () {
+    $(".project02, .project03, .project04, .project05, .project06").css("opacity", "1");
+    $(".project02, .project03, .project04, .project05, .project06").css("z-index", "10");
+    $(".img01").css("opacity", "0");
+    $(".personalProject").css("opacity", "1");
+});
+
+
+// P2
 $(".project02").mouseenter(function () {
     $(".project01, .project03, .project04, .project05, .project06").css("opacity", "0.2");
     $(".project01, .project03, .project04, .project05, .project06").css("z-index", "-10");
@@ -82,7 +91,14 @@ $(".project02").mouseleave(function () {
     $(".img02").css("opacity", "0");
     $(".personalProject").css("opacity", "1");
 });
+$(".project02").click(function () {
+    $(".project01, .project03, .project04, .project05, .project06").css("opacity", "1");
+    $(".project01, .project03, .project04, .project05, .project06").css("z-index", "10");
+    $(".img02").css("opacity", "0");
+    $(".personalProject").css("opacity", "1");
+});
 
+// P3
 $(".project03").mouseenter(function () {
     $(".project01, .project02, .project04, .project05, .project06").css("opacity", "0.2");
     $(".project01, .project02, .project04, .project05, .project06").css("z-index", "-10");
