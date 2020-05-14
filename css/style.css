@@ -390,7 +390,9 @@ img {
 }
 
 
-
+.chiudi-project{
+    display: none;
+}
 
 .cover {
     position: fixed;
@@ -407,12 +409,10 @@ img {
     opacity: 0;
     position: fixed;
     right: 5%;
-    top: 33%;
-    background-color: transparent;
-    height: 40px;
-    width: 40px;
+    top: 33%;    
     color: rgb(117, 7, 252);
-    text-align: center;
+    text-align: right;
+    font-size: 36px;    
 }
 
 .project{
@@ -465,6 +465,9 @@ img {
     .title{
     margin: -50 0 0 32;
     }
+    .closeButton{
+        display: block;
+    }
     
 }
 
@@ -472,6 +475,9 @@ img {
 @media (min-width: 800px) {
     .only-mobile{
         display: none;
+    }
+    .closeButton{
+        display: block;
     }
     
 }
@@ -505,10 +511,13 @@ img {
     .navbar-my li a {
         margin: 0 0 0 0;}
     
-    #hello-dx{
+    /*#hello-dx{
         margin-left: 30px;
         position: fixed;
         right: 0;
+    }*/
+    .chiudi-project{
+    display: block;
     }
     
 }
@@ -539,14 +548,16 @@ img {
     }
     
     .title{
-    margin: -20 0 0 10;
+        margin: -20 0 0 10;
     }
     
     .cover {
-    max-width: 75%;
-    height: auto;
+        max-width: 75%;
+        height: auto;
     }
-    
+    .chiudi-project{
+        display: block;
+    }
     
 }
 
@@ -581,7 +592,9 @@ img {
     max-width: 75%;
     height: auto;
     }
-    
+    .chiudi-project{
+        display: block;
+    }
     
     
 }
