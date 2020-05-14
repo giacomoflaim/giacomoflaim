@@ -92,10 +92,10 @@ $(".project02").mouseleave(function () {
     $(".personalProject").css("opacity", "1");
 });
 $(".project02").click(function () {
-    $(".project01, .project03, .project04, .project05, .project06").css("opacity", "1");
-    $(".project01, .project03, .project04, .project05, .project06").css("z-index", "10");
-    $(".img02").css("opacity", "0");
-    $(".personalProject").css("opacity", "1");
+    $(".project01, .project03, .project04, .project05, .project06").delay(3000).css("opacity", "1");
+    $(".project01, .project03, .project04, .project05, .project06").delay(2000).css("z-index", "10");
+    $(".img02").delay(2000).css("opacity", "0");
+    $(".personalProject").delay(2000).css("opacity", "1");
 });
 
 // P3
