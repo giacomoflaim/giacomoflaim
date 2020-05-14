@@ -404,6 +404,19 @@ img {
     height: auto;
 }
 
+.closeButton{
+    opacity: 0;
+    position: fixed;
+    right: 5%;
+    top: 15%;
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border-color: rgb(117, 7, 252); 
+    color: rgb(117, 7, 252);    
+}
+
 .project{
     z-index: 20;
 }
