@@ -157,7 +157,8 @@ h4{
 }
 
 h6{
-    font-family: 'DrukWideMediumItalic';
+    font-family: 'DrukWideMedium';
+    font-style: normal;
     font-size: 40;    
     letter-spacing: 6px;
     margin: 0;
