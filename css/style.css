@@ -412,11 +412,13 @@ img {
     top: 33%;    
     color: rgb(117, 7, 252);
     text-align: right;
-    font-size: 36px;    
+    font-size: 36px;
+    z-index: 1;
 }
 
 .project{
     z-index: 20;
+    cursor: pointer !;
 }
 
 
