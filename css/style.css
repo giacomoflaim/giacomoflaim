@@ -544,13 +544,11 @@ img {
     margin: -20 0 0 10;
     }
     
-    
-    
-    
-    
-    #hello-dx{
-        margin-left: 0px;
+    .cover {
+    max-width: 75%;
+    height: auto;
     }
+    
     
 }
 
@@ -581,12 +579,10 @@ img {
         letter-spacing: 4px;
     }
     
-    
-    
     .cover {
     max-width: 75%;
     height: auto;
-}
+    }
     
     
     
