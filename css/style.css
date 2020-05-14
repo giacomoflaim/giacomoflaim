@@ -410,11 +410,12 @@ img {
     right: 5%;
     top: 15%;
     background-color: transparent;
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 60px;
     border-color: rgb(117, 7, 252); 
-    color: rgb(117, 7, 252);    
+    color: rgb(117, 7, 252);
+    text-align: center;
 }
 
 .project{
@@ -535,6 +536,11 @@ img {
         height: 100vh;
     }
     
+    h6{
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+    
     .title{
     margin: -20 0 0 10;
     }
@@ -570,6 +576,11 @@ img {
     .copertina{
         height: 100vh;
     } 
+    
+    h6{
+        font-size: 28;
+        letter-spacing: 4px;
+    }
     
 }
 
