@@ -91,6 +91,12 @@ $(".project02").mouseleave(function () {
     $(".img02").css("opacity", "0");
     $(".personalProject").css("opacity", "1");
 });
+$(".project02").click(function () {
+    $(".project01, .project03, .project04, .project05, .project06").css("opacity", "1").delay( 800 );
+    $(".project01, .project03, .project04, .project05, .project06").css("z-index", "10").delay( 800 );
+    $(".img02").css("opacity", "0").delay( 800 );
+    $(".personalProject").css("opacity", "1").delay( 800 );
+});
 
 
 // P3
@@ -138,7 +144,6 @@ $(".project05").mouseover(function () {
     $(".img05").css("opacity", "1");
     $(".personalProject").css("opacity", "0.1");
 });
-
 $(".project05").mouseleave(function () {
     $(".project01, .project02, .project03, .project04, .project06").css("opacity", "1");
     $(".project01, .project02, .project03, .project04, .project06").css("z-index", "10");
@@ -159,7 +164,6 @@ $(".project06").mouseover(function () {
     $(".img06").css("opacity", "1");
     $(".personalProject").css("opacity", "0.1");
 });
-
 $(".project06").mouseleave(function () {
     $(".project01, .project02, .project03, .project04, .project05").css("opacity", "1");
     $(".project01, .project02, .project03, .project04, .project05").css("z-index", "10");
