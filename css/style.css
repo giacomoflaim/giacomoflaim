@@ -194,6 +194,13 @@ h7{
   	background-clip: text;
 }
 
+h8{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    line-height: 21px;
+}
+
 .copyright{
     text-align: center; !important   
     font-family: 'IBM Plex Sans', sans-serif;
