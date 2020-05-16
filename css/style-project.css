@@ -211,22 +211,26 @@ p {
 
 .navbar-my li a {    
 	font-weight: 500;
-    margin: 0 30 0 0;
     background-image: linear-gradient(-225deg, rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252));
   	color: transparent;
   	-webkit-background-clip: text;
   	background-clip: text;
-    padding: 6px;    
+    padding: 6 0 6 0;    
 }
 
-#hello-dx{
-    
-   
+.destra li a {
+    margin-right: 15;
+    margin-left: 40px;
+}
+
+.padding5{
+    padding: 0 5% !important;
 }
 
 
 .nav-up{
-	top:0px;	
+	top:0px;
+    z-index: 100;
 	}
 
 .navbar-my .nav li a:hover {
@@ -253,6 +257,11 @@ p {
   	-webkit-background-clip: text;
   	background-clip: text;
 }
+
+
+
+
+
 
 /*classi*/
 
@@ -509,7 +518,24 @@ project-by{
     
     .m-10-50{
         margin: 10 0 50 0; !important
-    }   
+    }
+    
+    #collapsingNavbar{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.9);
+    z-index: 2000;
+    transition: all .2s ease-in-out;
+    }
+    
+    .destra li a {
+    margin-right: 0;
+    margin-left: 0;
+    margin: 60 0;
+    }
+    
+   
     
 }
 
