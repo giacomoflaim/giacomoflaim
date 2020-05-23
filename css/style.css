@@ -199,6 +199,7 @@ h8{
     font-size: 14px;
     color: #333333;
     line-height: 21px;
+    text-align: center;
 }
 
 .copyright{
@@ -220,6 +221,26 @@ h8{
   	-webkit-background-clip: text;
   	background-clip: text;
 }
+
+.cookiebar{
+    background-color: rgb(117, 7, 252);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cookiebar .cookiebar-btn{
+    font-weight: 400;
+    
+}
+
+.cookiebar .cookiebar-btn:hover {
+    text-decoration: none !Important;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
 
 
 
@@ -494,7 +515,11 @@ img {
     margin-bottom: 60px;
 }
 
-
+.colorato{
+    font-weight: 700;
+    color: rgb(117, 7, 252);
+    margin-top: 30px;
+}
 
 /* EXTRA */
 
@@ -561,6 +586,10 @@ img {
 
 
 
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
    
 
 @media (max-width: 640px) {
@@ -610,6 +639,10 @@ img {
     margin-left: 0;
     margin: 60 0;
     }
+    
+    .nav-up {
+    top: 0px;
+}
     
 }
 

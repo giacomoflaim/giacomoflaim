@@ -103,7 +103,7 @@ $(".closeButton").click(function () {
 $(".project03").mouseover(function () {
     $(".project01, .project02, .project04, .project05, .project06").css("opacity", "0.2");
     $(".project01, .project02, .project04, .project05, .project06").css("z-index", "-10");
-    $(".img03").css("opacity", "1");
+    $(".img03, .closeButton").css("opacity", "1");
     $(".personalProject").css("opacity", "0.1");
 });
 
