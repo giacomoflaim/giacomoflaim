@@ -242,21 +242,13 @@ h8{
 
 
 
-
-
-
-
-
-
-
-
-
 .img-thumb{
     margin-bottom: 10px;
     display: inline;
 }
 
 
+/* NAVBAR NORMALE */
 .container-navbar{
     background: transparent;
     width: 100vw;
@@ -270,8 +262,6 @@ h8{
 	letter-spacing: 2px;
     -webkit-transition: top 0.5s ease-in-out;
     transition: top 0.5s ease-in-out;
-    
-    
 }
 
 .navbar-my li a {    
@@ -286,7 +276,6 @@ h8{
     margin-right: 0;
     margin-left: 40px;
 }
-
 .nav-link{
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -303,12 +292,134 @@ h8{
   background-color: transparent;
   border-bottom: 3.5px solid;
   height: 19px !important;
+}
+
+
+
+
+/* NAVBAR MOBILE */
+
+/* Icon 1 */
+
+.animated-icon2 {
+width: 30px;
+height: 20px;
+position: relative;
+margin: 0px;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+cursor: pointer;
+}
+
+.animated-icon2 span {
+display: block;
+position: absolute;
+height: 3px;
+width: 100%;
+border-radius: 9px;
+opacity: 1;
+left: 0;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .25s ease-in-out;
+-moz-transition: .25s ease-in-out;
+-o-transition: .25s ease-in-out;
+transition: .25s ease-in-out;
+}
+
+
+
+.animated-icon2 span {
+background-image: linear-gradient(-225deg,rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252)); !important
+}
+
+
+/* Icon 3*/
+
+.animated-icon2 span:nth-child(1) {
+top: 0px;
+width: 20px;
+position: absolute;
+}
+
+.animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
+top: 10px;
 
 }
 
-.style-bar{
-    background-image: linear-gradient(-225deg,rgb(116, 223, 239), rgb(131, 180, 244), rgb(135, 137, 247), rgb(130, 89, 250), rgb(117, 7, 252)); !important
+.animated-icon2 span:nth-child(4) {
+top: 20px;
+    width: 20px;
 }
+
+.animated-icon2.open span:nth-child(1) {
+top: 11px;
+width: 0%;
+left: 50%;
+}
+
+.animated-icon2.open span:nth-child(2) {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+background: white;
+}
+
+.animated-icon2.open span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+background: white;
+}
+
+.animated-icon2.open span:nth-child(4) {
+top: 11px;
+width: 0%;
+left: 50%;
+}
+
+.nav-chiuso {
+    background-color: transparent;
+
+}
+.nav-aperto{
+    background-color: rgba(117, 7, 252,0.85);
+    border-bottom-left-radius: 600px;
+    
+}
+
+.nav-mb{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 40 15;
+}
+
+.nav-mb:hover, .nav-mb:active{
+    font-weight: 400;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+}
+
+/* FINE NAVBAR MOBILE */
 
 
 
@@ -339,22 +450,11 @@ h8{
 
 /* ARROW - SCROLL DOWN */
 
-.arrow{
-    max-height: 40px;    
-    margin-top: 20px;
-}
 
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
 
-@keyframes bounce {  
-  50% {
-    transform: translateY(-20px);
-  }  
-}
+
+
+
 
 #about{
     margin-top: 100px;
@@ -534,7 +634,7 @@ img {
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     .only-mobile{
         display: none;
     }
@@ -545,10 +645,14 @@ img {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     
     .copertina{
         height: 100vh;
+    }
+    
+    .navbar-my{
+        display: none;
     }
     
     h1{
@@ -582,14 +686,13 @@ img {
     display: block;
     }
     
+    
+    
 }
 
 
 
 
-.custom-toggler.navbar-toggler {
-  border-color: rgb(255,102,203);
-} 
    
 
 @media (max-width: 640px) {
@@ -625,14 +728,7 @@ img {
         display: block;
     }
     
-    #collapsingNavbar{
-    text-align: center;
-    padding: 20px;
-    height: 100vh;
-    background-color: rgba(255,255,255,0.9);
-    z-index: 2000;
-    transition: all .2s ease-in-out;
-    }
+    
     
     .destra li a {
     margin-right: 0;

@@ -14,7 +14,7 @@
     
 
     <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/style-project.css" rel="stylesheet">
    
     
@@ -35,66 +35,95 @@
     
 <!-- MENU XS SM -->
 
-<nav class="navbar navbar-my navbar-fixed-top container-navbar nav-up">
-  <div class="container-fluid padding5">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    
-     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsingNavbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar style-bar"></span>
-        <span class="icon-bar style-bar"></span>
-        <span class="icon-bar style-bar"></span>
-      </button>     
-    </div>
+<!-- MENU  -->
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="collapsingNavbar" style="margin-top: 18px;">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="index.html">Giacomo Flaim</a></li>
-      </ul>
+<nav class="navbar navbar-my fixed-top container-navbar nav-up navbar-expand-sm w-100">   
       
-      <ul class="nav navbar-nav navbar-right destra">
-        <li><a href="about.html">about me</a></li>
-        <li id="hello-dx"><a href="mailto:giacomo.flaim@gmail.com">Say hello!</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"
+    style="margin-top: 1rem;">
+        <ul class="nav navbar-nav navbar-left">
+            <li class="nav-link nav-item"> <a href="index.html">Giacomo Flaim</a></li>
+        </ul>
+        
+        <ul class="nav navbar-nav ml-auto destra">
+            <li class="nav-item"><a href="about.html" class="nav-link">about me</a>
+            </li>
+            <li id="hello-dx" class="nav-item"><a href="mailto:giacomo.flaim@gmail.com" class="nav-link">Say hello!</a>
+            </li>
+        </ul>
+    </div>
 </nav>
+ 
+ 
+ 
+ 
+
+<!--Navbar MOBILE-->
+<nav class="navbar navbar-dark red lighten-1 mb-4 only-mobile fixed-top nav-chiuso">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"></a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#content-mobile"
+    aria-controls="content-mobile" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="content-mobile">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link nav-mb" href="index.html">All projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-mb" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-mb" href="mailto:giacomo.flaim@gmail.com">Say Hello!</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+       
+<!--NAVBAR MOBILE FINE--> 
         
       
       
 <div class="container top-120">        
 	<div class="row">
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
 			<h5>Information Design</h5> <h5>Web Design</h5> <h5>UX/UI</h5>
 			<h2>Are you sure you want to see this?</h2>
 			<h3>Part 1 | Data exploration and visualization on the distribution of the ISIS videos online.</h3>
 		</div>
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 centrato" style="margin-top:20px;">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato" style="margin-top:20px;">
 			<h5>TEAM</h5>
 			<h6><a class="team_link" href="https://www.behance.net/Francesco_Cosmai/" target="_blank">Francesco Cosmai</a> | <a class="team_link" href="index.html" target="_blank">Giacomo Flaim</a> | <a class="team_link" href="https://www.behance.net/francescogiudice" target="_blank">Francesco Giudice</a> | <a class="team_link" href="https://www.behance.net/barbaranpg" target="_blank">Barbara Nardella</a> | <a class="team_link" href="http://giuliazerbini.com/#/" target="_blank">Giulia Zerbini</a></h6>
 		</div>
 	</div>
 	
 	<div class="row">
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/areusure1/gephi.png" class="img-responsive img-1">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/areusure1/gephi.png" class="img-responsive img-1 img-100">
 		</div>
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
 			<p class="m-80">In the 2016/2017 edition of the Final Synthesis Studio at <a class="team_link" href="http://www.densitydesign.org" target="_blank">Density Design Lab</a> we were asked to use information visualization, both as an analytical and a communicative tool, to observe, understand, shape and communicate <span class="t_h">complex phenomena</span>.<br>In the second part -<a class="team_link" href="insi.html">explore part one</a>- of the course, we have to select a specific controversy and depicted its current develpment, highlighting the debate related to the issue. Our goal was to  identified the actors relevant to the topic and mapped their positions and connections. Taking cue from the "Digital Methods", we had to harvest data directly from the web, picking the sources they deemed more appropriate in relation to the debate but also developing new solutions to collect, analyze and represent the data. The result is a "visual atlas" aimed at reporting the debate, representing the actors that take part in it and their stances.</p>
 		</div>
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/areusure1/trendline_picchi_12.gif" class="img-responsive" style="width:100%">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/areusure1/trendline_picchi_12.gif" class="img-responsive img-100">
 		</div>
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
 			<p class="m-80">When terrorism appears as the headline news, what do people search online? The project focuses on the video-executions produced by ISIS, which can be considered as news themselves. Starting from the events that cause debate, we analysed the way several platforms deal with content and the way users respond to this kind of information. How can the way an event is presented and spread online affect the perception of the phenomenon itself? </p>
 		</div>
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/areusure1/video.png" class="img-responsive" style="margin-bottom: 60px">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/areusure1/video.png" class="img-responsive img-100" style="margin-bottom: 60px">
 		</div>
-        <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/areusure1/cerchio.png" class="img-responsive" style="margin-bottom: 100px">
+        <div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/areusure1/cerchio.png" class="img-responsive img-100" style="margin-bottom: 100px">
 		</div>
 	</div>
 

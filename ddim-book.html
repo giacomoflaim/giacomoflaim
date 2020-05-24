@@ -14,11 +14,9 @@
     
 
     <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/style-project.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style-t.css">
-    <link rel="stylesheet" href="css/style-responsive.css">
-    <link rel="stylesheet" href="css/animate.min.css">
+    
    
     
     
@@ -38,41 +36,68 @@
   
 
     
-<!-- MENU XS SM -->
     
-<nav class="navbar navbar-my navbar-fixed-top container-navbar nav-up">
-  <div class="container-fluid padding5">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    
-     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsingNavbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar style-bar"></span>
-        <span class="icon-bar style-bar"></span>
-        <span class="icon-bar style-bar"></span>
-      </button>     
-    </div>
+<!-- MENU  -->
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="collapsingNavbar" style="margin-top: 18px;">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="index.html">Giacomo Flaim</a></li>
-      </ul>
+<nav class="navbar navbar-my fixed-top container-navbar nav-up navbar-expand-sm w-100">   
       
-      <ul class="nav navbar-nav navbar-right destra">
-        <li><a href="about.html">about me</a></li>
-        <li id="hello-dx"><a href="mailto:giacomo.flaim@gmail.com">Say hello!</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"
+    style="margin-top: 1rem;">
+        <ul class="nav navbar-nav navbar-left">
+            <li class="nav-link nav-item"> <a href="index.html">Giacomo Flaim</a></li>
+        </ul>
+        
+        <ul class="nav navbar-nav ml-auto destra">
+            <li class="nav-item"><a href="about.html" class="nav-link">about me</a>
+            </li>
+            <li id="hello-dx" class="nav-item"><a href="mailto:giacomo.flaim@gmail.com" class="nav-link">Say hello!</a>
+            </li>
+        </ul>
+    </div>
 </nav>
+ 
+ 
+ 
+ 
 
+<!--Navbar MOBILE-->
+<nav class="navbar navbar-dark red lighten-1 mb-4 only-mobile fixed-top nav-chiuso">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"></a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#content-mobile"
+    aria-controls="content-mobile" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="content-mobile">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link nav-mb" href="index.html">All projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-mb" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-mb" href="mailto:giacomo.flaim@gmail.com">Say Hello!</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+       
+<!--NAVBAR MOBILE FINE--> 
         
       
       
 <div class="container top-120">        
 	<div class="row">
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
 			<h5>Editorial Design</h5><h5>Information Design</h5>
 			<h2>Digital Driven Ideation Methods</h2>
 			<h3>Six data-driven methods to ideate and co-create</h3>
@@ -80,11 +105,11 @@
 	</div>
 	
 	<div class="row">
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/DDIM-book/0.jpg" class="img-responsive img-1">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/DDIM-book/0.jpg" class="img-responsive img-1 img-100">
 		</div>
     
-        <div class="col-md-offset-1 col-md-11 col-sm-offset-1 col-sm-10 centrato">
+        <div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
             <h5 style="margin-top: 80">some info about the text</h5>
             <p style="margin: 20 0 0 0;">Font | Favorit, Dinamo, utilizzato nelle versioni std, std italic e std lining, nei pesi Regular, Medium e Bold<br>
                 Colors | <span style="color: #155048">Dusky Green (100, 30, 64, 50)</span>
@@ -97,35 +122,35 @@
                
     </div>
     <div class="row">
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
             <p class="m-80">Today’s society makes individuals, in some cases knowingly, producers of digital traces (in the form of data). This can define them as an individual or as part of a group. Throughout the last decade the need to analyze and understand people’s behaviour online and offline, brought the study of digital traces to be the focus of substantial research. It is in this multidisciplinary context that <a class="team_link" href="https://wiki.digitalmethods.net/Dmi/ToolDatabase" target="_blank">Digital Methods (DM)</a> are thought: approaches and digital tools that allow the extraction and study of data produced in the web, according to the characteristics of the platform from which the data is gathered. In a different context the Human Centered Design (HCD) has been developed as a creative approach to problem solving that involves directly the users in the entire design process, designed by their perspective. Currently HCD is the most used approach in the creation of products and services, and for IDEO it is a process that consist in three project-phases: inspiration, ideation and implementation.</p>
 		</div>
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/DDIM-book/6.jpg" class="img-responsive">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/DDIM-book/6.jpg" class="img-responsive img-100">
 		</div>
-        <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/DDIM-book/5.jpg" class="img-responsive img-1">
+        <div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/DDIM-book/5.jpg" class="img-responsive img-1 img-100">
 		</div>
-        <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/DDIM-book/1.jpg" class="img-responsive img-1">
+        <div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/DDIM-book/1.jpg" class="img-responsive img-1 img-100">
 		</div>
-        <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
+        <div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
             <p class="m-80">The project is intended to explore a syncretism between the two approaches previously submitted, through the creation of a data-driven methodkit, to be used in the ideation phase. The methodkit takes and applies the Digital Methods tools in the creation of products and services in order to generate new ideas. The methodkit, made up of six methods based on tools already known by UX and Service designers, aims to encourage and facilitate the ideas generation process during co-design sessions.</p>
 		</div>
-        <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/DDIM-book/4.jpg" class="img-responsive">
+        <div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/DDIM-book/4.jpg" class="img-responsive img-100">
         </div>
     </div>
     
     <div class="row">
-       <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
+       <div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
             <p class="m-80">Thanks to the six methods the designer could use the digital traces as stimulus in order to do the ideation phase from an alternative perspective. In order to give the chance to work and test the validity of the Method-kit the six methods have become part of a website (www.ddim.it), in which the user can find everything he needs to start using them.</p>
 		</div>
-		<div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/DDIM-book/3.jpg" class="img-responsive">
+		<div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/DDIM-book/3.jpg" class="img-responsive img-100">
 		</div>
-        <div class="col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12 centrato">
-			<img src="./image/DDIM-book/2.jpg" class="img-responsive img-1">
+        <div class="offset-md-1 col-md-10 offset-sm-1 col-sm-10 col-xs-12 centrato">
+			<img src="./image/DDIM-book/2.jpg" class="img-responsive img-1 img-100">
 		</div>
     </div>
             

@@ -1,4 +1,3 @@
-
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
 
@@ -183,3 +182,14 @@ $(".project06").click(function () {
     $(".personalProject").css("opacity", "1");
 });
 
+
+$(document).ready(function () {
+
+  
+  $('.second-button').on('click', function () {      
+      $('.nav-chiuso').toggleClass('nav-aperto')
+      $('.animated-icon2').toggleClass('open');
+  });
+ 
+  
+});
